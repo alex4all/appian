@@ -4,7 +4,7 @@ echo and creating logs folder.
 echo This should take less than a minute.
 
 id=$(docker create appian-base)
-APPIAN_HOME=/usr/local/appian/ae
+APPIAN_HOME=/Users/alex/Documents/appian-docker
 
 mkdir -p ./data
 mkdir -p ./logs/tomcat
